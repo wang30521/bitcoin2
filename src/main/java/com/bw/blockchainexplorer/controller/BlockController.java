@@ -34,8 +34,8 @@ public class BlockController {
     @Autowired
     private BlockService blockService;
 
-    @Value("${blockchain.recentCount}")
-    private Integer recentCount;
+    //@Value("${blockchain.recentCount}")
+    //private Integer recentCount;
 
     @GetMapping("/getRecentBlocks")
     public List<BlockListDTO> getRecentBlocks() throws Throwable {

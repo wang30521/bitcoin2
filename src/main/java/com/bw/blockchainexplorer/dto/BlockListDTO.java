@@ -20,7 +20,7 @@ public class BlockListDTO {
         return time;
     }
 
-    public void setTime(long time) {
+    public void setTime(Date time) {
         this.time = time;
     }
 
